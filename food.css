@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Food_background.webp');
+    background-size: cover;
+}
+.logo_img{
+    margin-right: -580px;
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.search-bar{
+    height: 40px;
+    width: 60%;
+    font-size: 25px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    color: rgb(253, 8, 49);
+}
+.search-button{
+    height: 42px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: tomato;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -400px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li{
+     
+    margin-right: 20px;
+}
+nav li a:hover{
+    color: rgb(255, 0, 4);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav2 .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav2 ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav2 li {
+    margin-right: 80px;
+}
+.nav2 a {
+    color: white;
+    text-decoration: none;
+}
+li a .item{
+    margin-top: 10px;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+.product-img{
+    width: 100%;
+    height: 70%;
+}
+footer {
+    background-color: #4b4b4b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
